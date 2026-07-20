@@ -34,3 +34,12 @@ void main()
     printf("square of %d is %d\n",num1,num1*num1);
     printf("cubes of %d is %d",num1,num1*num1*num1);
 }
+#include<stdio.h>
+void main()
+{
+    int s;
+    printf("enter number:");
+    scanf("%d",&s);
+    printf("area of square:%d\n",s*s);
+    printf("perimeter of square:%d",4*s);
+}
