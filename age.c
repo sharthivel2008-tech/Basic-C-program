@@ -43,3 +43,11 @@ void main()
     printf("area of square:%d\n",s*s);
     printf("perimeter of square:%d",4*s);
 }
+#include<stdio.h>
+void main()
+{
+    int r;
+    printf("enter number:");
+    scanf("%d",&r);
+    printf("circumference:%d\n",2*22/7*r);
+}
