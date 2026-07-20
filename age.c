@@ -16,3 +16,12 @@ void main(){
     printf("subtraction = %d \n",num1-num2);
     
 }
+#include<stdio.h>
+void main()
+{
+    int num1 ,num2;
+    printf("multiple and subtract:");
+    scanf("%d%d",&num1,&num2);
+    printf("%d*%d=%d\n",num1,num2,num1*num2);
+    printf("%d/%d=%d",num1,num2,num1/num2);
+}
