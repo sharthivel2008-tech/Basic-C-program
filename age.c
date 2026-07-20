@@ -51,3 +51,11 @@ void main()
     scanf("%d",&r);
     printf("circumference:%d\n",2*22/7*r);
 }
+#include<stdio.h>
+void main()
+{
+    int r;
+    printf("eneter num:");
+    scanf("%d",&r);
+    printf("area of sphere=%d",4*22/7*r*r);
+}
