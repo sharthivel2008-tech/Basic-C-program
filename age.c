@@ -7,6 +7,7 @@ void main()
     scanf("%d",&age);
     printf("are you %d ?",age);
 }
+
 #include<stdio.h>
 void main(){
     int num1,num2;
@@ -16,6 +17,7 @@ void main(){
     printf("subtraction = %d \n",num1-num2);
     
 }
+
 #include<stdio.h>
 void main()
 {
@@ -25,6 +27,7 @@ void main()
     printf("%d*%d=%d\n",num1,num2,num1*num2);
     printf("%d/%d=%d",num1,num2,num1/num2);
 }
+
 #include<stdio.h>
 void main()
 {
@@ -34,6 +37,7 @@ void main()
     printf("square of %d is %d\n",num1,num1*num1);
     printf("cubes of %d is %d",num1,num1*num1*num1);
 }
+
 #include<stdio.h>
 void main()
 {
@@ -42,7 +46,8 @@ void main()
     scanf("%d",&s);
     printf("area of square:%d\n",s*s);
     printf("perimeter of square:%d",4*s);
-}
+} 
+
 #include<stdio.h>
 void main()
 {
@@ -50,7 +55,8 @@ void main()
     printf("enter number:");
     scanf("%d",&r);
     printf("circumference:%d\n",2*22/7*r);
-}
+} 
+
 #include<stdio.h>
 void main()
 {
@@ -58,4 +64,19 @@ void main()
     printf("eneter num:");
     scanf("%d",&r);
     printf("area of sphere=%d",4*22/7*r*r);
+}
+
+#include<stdio.h>
+void main()
+{
+    float cost_price=3.25;
+    float selling_price=4.15;
+    float liters=4.0;
+    float water_liters=1.0;
+    float total_liters=liters+water_liters;
+    float total=selling_price*total_liters;
+    float bfr_add=cost_price*liters;
+    float gain=total-bfr_add;
+    printf("gain of milk vendor= %.2f",gain);
+    
 }
