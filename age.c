@@ -120,3 +120,17 @@ int main()
     printf("value of c %d",result);
     return 0;
 }
+#include<stdio.h>
+void sum(int x,int y)
+{
+    printf("hii");
+    
+}
+void main()
+{
+   
+   int a,b;
+   printf("enter no:");
+   scanf("%d %d",&a,&b);
+   sum(a,b);
+}
