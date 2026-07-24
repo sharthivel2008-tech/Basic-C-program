@@ -91,6 +91,8 @@ void main()
     greet();
 }
 
+
+
 #include<stdio.h>
 int sum()
 {
@@ -107,6 +109,9 @@ int main()
    printf(" %d",result)
    return 0;
 }
+
+
+
 #include <stdio.h>
 int add(int a,int b)
 {
@@ -120,6 +125,9 @@ int main()
     printf("value of c %d",result);
     return 0;
 }
+
+
+
 #include<stdio.h>
 void sum(int x,int y)
 {
