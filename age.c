@@ -80,3 +80,13 @@ void main()
     printf("gain of milk vendor= %.2f",gain);
     
 }
+functions
+#include<stdio.h>
+void greet()
+{
+    printf("welcome to fantasy function");
+}
+void main()
+{
+    greet();
+}
