@@ -90,3 +90,31 @@ void main()
 {
     greet();
 }
+
+#include<stdio.h>
+int sum()
+{
+    int a,b,c;
+    printf("enter no:");
+    scanf("%d %d",&a,&b);
+    c=a+b;
+    printf("sum=%d",c);
+}
+int main()
+{
+    sum();
+    return 0;
+}
+#include <stdio.h>
+int add(int a,int b)
+{
+ int c=a+b;
+ return c;
+}
+int main()
+{
+    int x=5,y=6;
+    int result=add(x,y);
+    printf("value of c %d",result);
+    return 0;
+}
