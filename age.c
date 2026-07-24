@@ -81,6 +81,8 @@ void main()
     
 }
 functions
+without arguement,without return type
+
 #include<stdio.h>
 void greet()
 {
@@ -92,7 +94,8 @@ void main()
 }
 
 
-
+without arguement,with return type
+    
 #include<stdio.h>
 int sum()
 {
@@ -110,7 +113,7 @@ int main()
    return 0;
 }
 
-
+with return type,with arguement
 
 #include <stdio.h>
 int add(int a,int b)
@@ -126,7 +129,7 @@ int main()
     return 0;
 }
 
-
+With arguement,withoutreturn type
 
 #include<stdio.h>
 void sum(int x,int y)
