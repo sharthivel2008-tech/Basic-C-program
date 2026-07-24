@@ -99,11 +99,13 @@ int sum()
     scanf("%d %d",&a,&b);
     c=a+b;
     printf("sum=%d",c);
+    return c;
 }
 int main()
 {
-    sum();
-    return 0;
+   int result=sum();
+   printf(" %d",result)
+   return 0;
 }
 #include <stdio.h>
 int add(int a,int b)
